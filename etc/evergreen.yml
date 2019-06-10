@@ -5108,6 +5108,7 @@ tasks:
       npm_command: agg-fuzzer
       resmoke_args: --suites=generational_fuzzer
       name: aggregation_wildcard_fuzzer
+
 ## jstestfuzz standalone fuzzer for checking find and aggregate equivalence ##
 - <<: *jstestfuzz_template
   name: query_fuzzer_gen
